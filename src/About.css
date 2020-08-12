@@ -1,0 +1,52 @@
+
+h1{
+    margin: 0;
+  }
+  .firstdiv{
+    background-color: #ABF300;
+  }
+  
+  .secondiv{
+    background-color: #F3fCD2;
+  }
+  
+  .aboutdivs{
+    position: relative;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100vh;
+  }
+  
+  .wdumbells{
+    position: relative;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .desca{
+    position: absolute;
+      top: 50%;
+      right: 10%;
+      padding: 10%;
+      width: 20%;
+  }
+  
+  .menpullups{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+  }
+   
+  .descb{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    padding: 10%;
+    width: 20%;
+    text-align: center;
+    
+  }
+  
