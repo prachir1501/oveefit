@@ -3,12 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import About from './About';
+import Bm from './bm';
 import * as serviceWorker from './serviceWorker';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <About />
+    <Bm/>
+    
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
