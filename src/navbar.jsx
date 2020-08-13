@@ -8,15 +8,15 @@ function Nav2()
    return(
 
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">OVEE Fit</Navbar.Brand>
+  <Navbar.Brand href="/">OVEE Fit</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#features">About</Nav.Link>
-      <Nav.Link href="#pricing">Team</Nav.Link>
-      <Nav.Link href="#pricing">Business Model</Nav.Link>
-      <Nav.Link href="#pricing">Features</Nav.Link>
-      <Nav.Link href="#pricing">Hiring!</Nav.Link>
+      <Nav.Link href="/about">About</Nav.Link>
+      <Nav.Link href="/team">Team</Nav.Link>
+      <Nav.Link href="/business">Business Model</Nav.Link>
+      <Nav.Link href="/features">Features</Nav.Link>
+      <Nav.Link href="/hiring">Hiring!</Nav.Link>
      
     </Nav>
    

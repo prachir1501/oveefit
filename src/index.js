@@ -2,20 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import About from './About';
-import Bm from './bm';
+import Nav2 from './navbar.jsx';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter as Router} from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <Bm/>
-    
-    
-  </React.StrictMode>,
+  <Router> 
+  <Nav2/>
+  <App /> 
+  </Router> 
+  ,
   document.getElementById('root')
 );
 
