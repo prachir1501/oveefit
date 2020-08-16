@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './bm.css';
 import './bm2.css';
-
 import Testimonial from './testimonial';
 
 
