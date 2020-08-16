@@ -6,8 +6,19 @@ function Team()
 {
     return(
 
+    <div>
+        <div class="bg-image">
+  
+        </div>
+  
+         <div class="bg-text">
+            <h1>THE TEAM</h1>
+    
+          </div>
+      <br/>
+      <br/>
         <div class="container">
-  <div class="row">
+    <div class="row">
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
@@ -79,7 +90,7 @@ function Team()
   </div>
 </div>
 
-
+</div>
 
     );
 }
