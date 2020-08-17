@@ -10,11 +10,11 @@ function App() {
   return (
     <div>
      <Switch>
-       <Route path="/about"><About/></Route>
+       <Route path="/about"><Home/></Route>
        <Route path="/team"><Team/></Route>
        <Route path="/business"><Bm/></Route>
-       <Route path="/features"><About/></Route>
-       <Route path="/hiring"><About/></Route>
+       <Route path="/features"><Home/></Route>
+       <Route path="/hiring"><Home/></Route>
        <Route path="/"><Home/></Route>
 
      </Switch>
