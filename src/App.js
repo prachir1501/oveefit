@@ -4,6 +4,7 @@ import {Switch,Route,Link} from "react-router-dom";
 import About from './About';
 import Bm from './bm';
 import Team from './team';
+import Home from "./Home";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
        <Route path="/business"><Bm/></Route>
        <Route path="/features"><About/></Route>
        <Route path="/hiring"><About/></Route>
-       <Route path="/"><About/></Route>
+       <Route path="/"><Home/></Route>
 
      </Switch>
     

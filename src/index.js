@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import Nav2 from './navbar.jsx';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router} from "react-router-dom";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Footer from 'rc-footer';
 import 'rc-footer/assets/index.css';
@@ -17,7 +18,7 @@ ReactDOM.render(
   <Nav2/>
   <App />
 
-   <Footer
+   <Footer  
   columns={
 
     [

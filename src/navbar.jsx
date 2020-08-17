@@ -7,7 +7,7 @@ function Nav2()
 
    return(
 
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark" className="nav-color">
   <Navbar.Brand href="/">OVEE Fit</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
